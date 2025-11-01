@@ -42,8 +42,8 @@ It enables educators to host live online lectures with real-time audio, video, a
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/lern-live.git
-cd lern-live
+git clone https://github.com/nilesh98199/LernLive.git
+cd LernLive
 ````
 
 ### 2️⃣ Install Dependencies
