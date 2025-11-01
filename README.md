@@ -62,25 +62,26 @@ Here’s a public-safe example file you can include in your repo.
 
 Save this as .env.local.example:
 
+```bash
 # ===============================
 # LernLive — Environment Variables
 # ===============================
 
-🔐 Clerk Authentication (https://clerk.com/)
+# 🔐 Clerk Authentication (https://clerk.com/)
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
-Clerk Authentication Routes
+# Clerk Authentication Routes
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-🎥 Stream Video & Chat SDK (https://getstream.io/)
+# 🎥 Stream Video & Chat SDK (https://getstream.io/)
 NEXT_PUBLIC_STREAM_API_KEY=your_stream_api_key
 STREAM_SECRET_KEY=your_stream_secret_key
 
-🌐 Base URL of your app (local or deployed)
+# 🌐 Base URL of your app (local or deployed)
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
-
+```
 
 ✅ Tips for Using .env.local.example
 
@@ -92,8 +93,9 @@ When deploying, copy these variable names into your host’s environment setting
 
 You can quickly create your local env file with:
 
+```bash
 cp .env.local.example .env.local
-
+```
 ⚠️ **Important:**
 Do **not** expose your secret keys (`CLERK_SECRET_KEY`, `STREAM_SECRET_KEY`) in client-side code or public repositories.
 Use your deployment platform’s secret storage (e.g., **Vercel Environment Variables**).
