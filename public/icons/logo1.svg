@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" viewBox="0 2 100 24" fill="skyblue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <text x="24" y="16" font-size="12" font-weight="bold" font-family="arial" fill="white">EDUSTREAM</text>
+    <rect x="2" y="5" width="16" height="14" rx="2" ry="2" stroke="skyblue" fill="skyblue"/>
+    <polygon points="10 9 15 12 10 15" fill="skyblue"/>
+    <path d="M22 7L16 10V14L22 17V7Z" stroke="skyblue" fill="skyblue"/>
+</svg>
