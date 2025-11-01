@@ -81,6 +81,7 @@ STREAM_SECRET_KEY=your_stream_secret_key
 # 🌐 Base URL of your app (local or deployed)
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
+
 ✅ Tips for Using .env.local.example
 
 Keep real credentials in .env.local (do not commit it).
